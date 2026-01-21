@@ -3,7 +3,7 @@
 ```bash
 docker build -t lab3-watcher . 
 ```  
-2. <<(với ${PWD} là đường dẫn tuyệt đối đết file Lab3_FileTransfer)>>
+2. <<(với ${PWD} là đường dẫn tuyệt đối đến file Lab3_FileTransfer)>>
 ```bash
 docker run -d --name legacy_worker `
 -v "${PWD}\Lab3_FileTransfer\input:/app/input" `

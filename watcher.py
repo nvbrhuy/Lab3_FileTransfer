@@ -46,7 +46,7 @@ def process_file(filepath):
 
 
 def start_watching():
-    print("👀 Watchdog Service Started... Waiting for files in /input", flush=True)
+    print("👀 Watchdog Service Started... Waiting for files in /input")
 
     while True:
         try:
